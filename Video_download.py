@@ -1,5 +1,5 @@
 '''for use this use python 3.8 or higher version of pyhon '''
-# this is used to install the module if the module is not installed
+# this is used to install the module automatically if the module is not installed
 import subprocess
 try:
     from pytubefix import YouTube 
@@ -27,6 +27,7 @@ def open_file_dialog():
 
     return folder
 
+# this function use to run the program 
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
